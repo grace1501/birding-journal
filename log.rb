@@ -13,5 +13,8 @@ class Log
 
 end
 
-bird = Log.new("bird", "today", "here")
-pp bird.to_s
+# sparrow_log = Log.new("sparrow", "today", "backyard")
+# hawk_log = Log.new("hawk", "2024-05-08", "city park")
+
+# pp sparrow_log.to_s
+# pp hawk_log.to_s

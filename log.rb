@@ -1,5 +1,5 @@
 class Log
-  attr_accessor: :species, :date, :location
+  attr_accessor :species, :date, :location
 
   def initialize(species, date, location)
     @species = species
@@ -8,7 +8,10 @@ class Log
   end
 
   def to_s
-    return "#{@species} | #{@date} | @{location} "
+    return "#{@species} | #{@date} | #{@location}"
   end
 
 end
+
+bird = Log.new("bird", "today", "here")
+pp bird.to_s

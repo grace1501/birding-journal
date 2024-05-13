@@ -1,5 +1,6 @@
-# ruby-cli-template
+# Birding journal CLI
 
-Use this repository as a template for your Ruby CLI (command line interface) project.
-
-- Ruby version: `3.2.1`
+### Description: 
+Log the date, location, and species you see for future reference. Easily access and edit all your birding records.
+### Usage
+Run `ruby app.rb` in the terminal

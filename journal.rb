@@ -8,8 +8,12 @@ class Journal
 
   end
 
+  def logs 
+    return @logs
+  end
+
   def open
-    puts "Welcome to Birding Journal. Log the date, location, and species you see, and easily access all your birding records for future reference."
+    puts "Welcome to Birding Journal. Log the date, location, and species you see, easily access all your birding records for future reference."
     
     loop do
       puts "\nChoose an option below:"
@@ -73,5 +77,3 @@ class Journal
   end
 
 end
-
-
